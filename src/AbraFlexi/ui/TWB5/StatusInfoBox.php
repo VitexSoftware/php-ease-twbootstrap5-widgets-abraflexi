@@ -6,23 +6,23 @@
  * @author Vítězslav Dvořák <info@vitexsoftware.cz>
  */
 
-namespace AbraFlexi\ui\TWB4;
+namespace AbraFlexi\ui\TWB5;
 
 /**
- * Abraflexi connection status widget
+ * AbraFlexi connection status widget
  */
 class StatusInfoBox extends \AbraFlexi\Company implements \Ease\Embedable {
 
     use \Ease\Glue;
 
     /**
-     * Abraflexi Status
+     * AbraFlexi Status
      * @var array
      */
     public $info = [];
 
     /**
-     * Try to connect to Abraflexi
+     * Try to connect to AbraFlexi
      *
      * @param string|array $init    company dbNazev or initial data
      * @param array        $options Connection settings override
@@ -50,10 +50,10 @@ class StatusInfoBox extends \AbraFlexi\Company implements \Ease\Embedable {
     public function draw() {
         if ($this->connected()) {
             $myCompany = $this->getCompany();
-            $return = new \Ease\TWB4\LinkButton($this->url . '/c/' . $myCompany,
+            $return = new \Ease\TWB5\LinkButton($this->url . '/c/' . $myCompany,
                     $this->info[$myCompany]['nazev'], 'success');
         } else {
-            $return = new \Ease\TWB4\LinkButton($this->getApiURL(),
+            $return = new \Ease\TWB5\LinkButton($this->getApiURL(),
                     _('Connection Problem'), 'danger');
         }
 

@@ -6,14 +6,14 @@
  * @author Vítězslav Dvořák <info@vitexsoftware.cz>
  */
 
-namespace AbraFlexi\ui\TWB4;
+namespace AbraFlexi\ui\TWB5;
 
 /**
  * Description of AddressForm
  *
  * @author vitex
  */
-class AdresarForm extends \Ease\TWB4\Form {
+class AdresarForm extends \Ease\TWB5\Form {
 
     /**
      * Address Object holder.

@@ -10,9 +10,9 @@ namespace AbraFlexi\Bricks;
 
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 
-$oPage = new \Ease\TWB4\WebPage(_('Abraflexi Custom Button Installer'));
+$oPage = new \Ease\TWB5\WebPage(_('Abraflexi Custom Button Installer'));
 
-$loginForm = new \AbraFlexi\ui\ConnectionForm('install.php');
+$loginForm = new \AbraFlexi\ui\TWB5\ConnectionForm(['action' => 'install.php']);
 $loginForm->addInput(new \Ease\Toggle('browser',
                 isset($_REQUEST) && array_key_exists('browser', $_REQUEST), 'automatic',
                 ['onText' => _('Abraflexi WebView'), 'offText' => _('System Browser')]),
@@ -43,11 +43,11 @@ if ($oPage->isPosted()) {
 
 
 
-$setupRow = new \Ease\TWB4\Row();
+$setupRow = new \Ease\TWB5\Row();
 $setupRow->addColumn(6, $loginForm);
 $setupRow->addColumn(6, $oPage->getStatusMessagesAsHtml());
 
-$oPage->addItem(new \Ease\TWB4\Container($setupRow));
+$oPage->addItem(new \Ease\TWB5\Container($setupRow));
 
 echo $oPage;
 

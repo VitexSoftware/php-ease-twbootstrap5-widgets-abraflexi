@@ -3,14 +3,14 @@
  * AbraFlexi-Bricks - Unit Test bootstrap
  *
  * @author Vítězslav Dvořák <info@vitexsoftware.cz>
- * @copyright (c) 2018, Vítězslav Dvořák
+ * @copyright (c) 2020, Vítězslav Dvořák
  */
 if (file_exists('../vendor/autoload.php')) {
     require_once '../vendor/autoload.php'; //Test Run
 } else {
     require_once 'vendor/autoload.php'; //Create Test
 }
-\Ease\Shared::instanced()->loadConfig('tests/client.json',true);
+\Ease\Shared::instanced()->loadConfig('tests/.env',true);
 define('EASE_LOGGER', 'syslog');
 /*
 $banka = 'HLAVNI';
