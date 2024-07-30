@@ -1,0 +1,4 @@
+docs/*                      usr/share/doc/EaseTWB5WidgetsAbraflexi/html
+docs/resources/*            usr/share/doc/EaseTWB5WidgetsAbraflexi/html/resources
+debian/php-vitexsoftware-ease-bootstrap5-widgets-abraflexi-doc.conf  usr/share/doc/php-vitexsoftware-ease-bootstrap5-widgets-abraflexi-doc/apache
+README.md                   usr/share/doc/EaseTWB5WidgetsAbraflexi/
