@@ -24,8 +24,8 @@ class StatusInfoBox extends \AbraFlexi\Company implements \Ease\Embedable {
     /**
      * Try to connect to AbraFlexi
      *
-     * @param string|array $init    company dbNazev or initial data
-     * @param array        $options Connection settings override
+     * @param string|array $init       company dbNazev or initial data
+     * @param array        $properties Connection settings override
      */
     public function __construct($init = null, $properites = []) {
         parent::__construct($init, $properites);
