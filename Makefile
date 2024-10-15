@@ -25,8 +25,8 @@ cs: ## Update Coding Standards
 
 
 clean:
-	rm -rf debian/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi
-	rm -rf debian/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi-doc
+	rm -rf debian/php-vitexsoftware-ease-bootstrap5-widgets-abraflexi
+	rm -rf debian/php-vitexsoftware-ease-bootstrap5-widgets-abraflexi-doc
 	rm -rf debian/*.log
 	rm -rf debian/*.substvars
 	rm -rf docs/*
@@ -34,7 +34,7 @@ clean:
 
 doc:
 	VERSION=`cat debian/composer.json | grep version | awk -F'"' '{print $$4}'`; \
-	php -f /usr/bin/apigen generate --source src --destination docs --title "php-vitexsoftware-ease-bootstrap4-widgets-abraflexi ${VERSION}" --charset UTF-8 --access-levels public --access-levels protected --php --tree
+	php -f /usr/bin/apigen generate --source src --destination docs --title "php-vitexsoftware-ease-bootstrap5-widgets-abraflexi ${VERSION}" --charset UTF-8 --access-levels public --access-levels protected --php --tree
 
 phpunit:
 	composer update
@@ -42,7 +42,7 @@ phpunit:
 
 changelog:
 	VERSION=`cat debian/composer.json | grep version | awk -F'"' '{print $$4}'`; \
-	CHANGES=`git log -n 1 | tail -n+5` ; dch -b -v $${VERSION} --package php-vitexsoftware-ease-bootstrap4-widgets-abraflexi "$(CHANGES)"
+	CHANGES=`git log -n 1 | tail -n+5` ; dch -b -v $${VERSION} --package php-vitexsoftware-ease-bootstrap5-widgets-abraflexi "$(CHANGES)"
 
 deb: changelog
 	dpkg-buildpackage -A -us -uc
@@ -57,6 +57,10 @@ release:
 	debuild -i -us -uc -b
 	git commit -a -m "Release v$(nextversion)"
 	git tag -a $(nextversion) -m "version $(nextversion)"
+
+rpm:
+	rpmdev-bumpspec --comment="Build" --userstring="Vítězslav Dvořák <info@vitexsoftware.cz>" php-vitexsoftware-ease-bootstrap5-widgets-abraflexi.spec
+	rpmbuild -ba php-vitexsoftware-ease-bootstrap5-widgets-abraflexi.spec
 
 
 

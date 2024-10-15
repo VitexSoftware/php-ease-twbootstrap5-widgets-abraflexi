@@ -1,5 +1,5 @@
 {
-  "name": "deb/ease-bootstrap4-widgets-abraflexi",
+  "name": "deb/ease-bootstrap5-widgets-abraflexi",
   "description": "php-abraflexi extending classes and widgets (debianized)",
   "homepage": "https://github.com/VitexSoftware/AbraFlexi-Bricks",
   "license": "GPL-2.0+",
@@ -12,12 +12,12 @@
     }
   ],
   "require": {
-    "deb/ease-bootstrap4": "*",
+    "deb/ease-bootstrap5": "*",
     "deb/abraflexi-bricks": "*"
   },
   "autoload": {
     "psr-4": {
-      "AbraFlexi\\ui\\TWB4\\": "./"
+      "AbraFlexi\\ui\\TWB5\\": "./"
     }
   },
   "minimum-stability": "dev",
@@ -32,7 +32,7 @@
     },
     {
       "type": "path",
-      "url": "/usr/share/php/EaseTWB"
+      "url": "/usr/share/php/EaseTWB5"
     },
     {
       "type": "path",
