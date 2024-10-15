@@ -16,3 +16,4 @@ composer.lock
 /debian/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi.substvars
 /debian/.debhelper/
 /.phpdoc/
+/.build/
