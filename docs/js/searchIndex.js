@@ -1,94 +1,209 @@
 Search.appendIndex(
     [
                 {
-            "fqsen": "\\AbraFlexi\\ui\\TWB4\\AdresarForm",
-            "name": "AdresarForm",
-            "summary": "Description\u0020of\u0020AddressForm",
-            "url": "../classes/AbraFlexi-ui-TWB4-AdresarForm.html"
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\AbraFlexiLogo",
+            "name": "AbraFlexiLogo",
+            "summary": "AbraFlexi\u0020Bricks\u0020\u002D\u0020AbraFlexi\u0020svg\u0020logo.",
+            "url": "classes/AbraFlexi-ui-TWB5-AbraFlexiLogo.html"
         },                {
-            "fqsen": "\\AbraFlexi\\ui\\TWB4\\AdresarForm\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\AbraFlexiLogo\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Address\u0020Book\u0020item\u0020form",
-            "url": "../classes/AbraFlexi-ui-TWB4-AdresarForm.html#method___construct"
+            "summary": "Inline\u0020vector\u0020AbraFlexi\u0020logo.",
+            "url": "classes/AbraFlexi-ui-TWB5-AbraFlexiLogo.html#method___construct"
         },                {
-            "fqsen": "\\AbraFlexi\\ui\\TWB4\\AdresarForm\u003A\u003A\u0024address",
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\AbraFlexiLogo\u003A\u003A\u0024svg",
+            "name": "svg",
+            "summary": "",
+            "url": "classes/AbraFlexi-ui-TWB5-AbraFlexiLogo.html#property_svg"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\AdresarForm",
+            "name": "AdresarForm",
+            "summary": "Description\u0020of\u0020AddressForm.",
+            "url": "classes/AbraFlexi-ui-TWB5-AdresarForm.html"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\AdresarForm\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Address\u0020Book\u0020item\u0020form.",
+            "url": "classes/AbraFlexi-ui-TWB5-AdresarForm.html#method___construct"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\AdresarForm\u003A\u003A\u0024address",
             "name": "address",
             "summary": "Address\u0020Object\u0020holder.",
-            "url": "../classes/AbraFlexi-ui-TWB4-AdresarForm.html#property_address"
+            "url": "classes/AbraFlexi-ui-TWB5-AdresarForm.html#property_address"
         },                {
-            "fqsen": "\\AbraFlexi\\ui\\TWB4\\ConnectionForm",
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\CompanyLogo",
+            "name": "CompanyLogo",
+            "summary": "Description\u0020of\u0020CompanyLogo.",
+            "url": "classes/AbraFlexi-ui-TWB5-CompanyLogo.html"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\CompanyLogo\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Embed\u0020Company\u0020logo\u0020into\u0020page.",
+            "url": "classes/AbraFlexi-ui-TWB5-CompanyLogo.html#method___construct"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\CompanyLogo\u003A\u003A\u0024none",
+            "name": "none",
+            "summary": "SVG\u0020Question\u0020Mark.",
+            "url": "classes/AbraFlexi-ui-TWB5-CompanyLogo.html#property_none"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\ConnectionForm",
             "name": "ConnectionForm",
-            "summary": "Form\u0020to\u0020configure\u0020used\u0020Abraflexi\u0020instance",
-            "url": "../classes/AbraFlexi-ui-TWB4-ConnectionForm.html"
+            "summary": "Form\u0020to\u0020configure\u0020used\u0020AbraFlexi\u0020instance.",
+            "url": "classes/AbraFlexi-ui-TWB5-ConnectionForm.html"
         },                {
-            "fqsen": "\\AbraFlexi\\ui\\TWB4\\ConnectionForm\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\ConnectionForm\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Abraflexi\u0020Server\u0020connection\u0020form",
-            "url": "../classes/AbraFlexi-ui-TWB4-ConnectionForm.html#method___construct"
+            "summary": "AbraFlexi\u0020Server\u0020connection\u0020form.",
+            "url": "classes/AbraFlexi-ui-TWB5-ConnectionForm.html#method___construct"
         },                {
-            "fqsen": "\\AbraFlexi\\ui\\TWB4\\ConnectionForm\u003A\u003A\u0024urlField",
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\ConnectionForm\u003A\u003A\u0024urlField",
             "name": "urlField",
-            "summary": "Abraflexi\u0020URL\u0020Input\u0020name",
-            "url": "../classes/AbraFlexi-ui-TWB4-ConnectionForm.html#property_urlField"
+            "summary": "AbraFlexi\u0020URL\u0020Input\u0020name.",
+            "url": "classes/AbraFlexi-ui-TWB5-ConnectionForm.html#property_urlField"
         },                {
-            "fqsen": "\\AbraFlexi\\ui\\TWB4\\ConnectionForm\u003A\u003A\u0024usernameField",
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\ConnectionForm\u003A\u003A\u0024usernameField",
             "name": "usernameField",
-            "summary": "Abraflexi\u0020User\u0020Input\u0020name",
-            "url": "../classes/AbraFlexi-ui-TWB4-ConnectionForm.html#property_usernameField"
+            "summary": "AbraFlexi\u0020User\u0020Input\u0020name.",
+            "url": "classes/AbraFlexi-ui-TWB5-ConnectionForm.html#property_usernameField"
         },                {
-            "fqsen": "\\AbraFlexi\\ui\\TWB4\\ConnectionForm\u003A\u003A\u0024passwordField",
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\ConnectionForm\u003A\u003A\u0024passwordField",
             "name": "passwordField",
-            "summary": "Abraflexi\u0020Password\u0020Input\u0020name",
-            "url": "../classes/AbraFlexi-ui-TWB4-ConnectionForm.html#property_passwordField"
+            "summary": "AbraFlexi\u0020Password\u0020Input\u0020name.",
+            "url": "classes/AbraFlexi-ui-TWB5-ConnectionForm.html#property_passwordField"
         },                {
-            "fqsen": "\\AbraFlexi\\ui\\TWB4\\ConnectionForm\u003A\u003A\u0024companyField",
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\ConnectionForm\u003A\u003A\u0024companyField",
             "name": "companyField",
-            "summary": "Abraflexi\u0020Company\u0020Input\u0020name",
-            "url": "../classes/AbraFlexi-ui-TWB4-ConnectionForm.html#property_companyField"
+            "summary": "AbraFlexi\u0020Company\u0020Input\u0020name.",
+            "url": "classes/AbraFlexi-ui-TWB5-ConnectionForm.html#property_companyField"
         },                {
-            "fqsen": "\\AbraFlexi\\ui\\TWB4\\StatusInfoBox",
-            "name": "StatusInfoBox",
-            "summary": "Abraflexi\u0020connection\u0020status\u0020widget",
-            "url": "../classes/AbraFlexi-ui-TWB4-StatusInfoBox.html"
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\DocumentLink",
+            "name": "DocumentLink",
+            "summary": "Description\u0020of\u0020DocumentLink.",
+            "url": "classes/AbraFlexi-ui-TWB5-DocumentLink.html"
         },                {
-            "fqsen": "\\AbraFlexi\\ui\\TWB4\\StatusInfoBox\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\DocumentLink\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Try\u0020to\u0020connect\u0020to\u0020Abraflexi",
-            "url": "../classes/AbraFlexi-ui-TWB4-StatusInfoBox.html#method___construct"
+            "summary": "A\u0020Href\u0020to\u0020document\u0020in\u0020AbraFlexi\u0020web\u0020interface.",
+            "url": "classes/AbraFlexi-ui-TWB5-DocumentLink.html#method___construct"
         },                {
-            "fqsen": "\\AbraFlexi\\ui\\TWB4\\StatusInfoBox\u003A\u003Aconnected\u0028\u0029",
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\EmbedResponsive",
+            "name": "EmbedResponsive",
+            "summary": "Description\u0020of\u0020EmbedResponsive.",
+            "url": "classes/AbraFlexi-ui-TWB5-EmbedResponsive.html"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\EmbedResponsive\u003A\u003Afinalize\u0028\u0029",
+            "name": "finalize",
+            "summary": "",
+            "url": "classes/AbraFlexi-ui-TWB5-EmbedResponsive.html#method_finalize"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\EmbedResponsiveHTML",
+            "name": "EmbedResponsiveHTML",
+            "summary": "Description\u0020of\u0020EmbedResponsive.",
+            "url": "classes/AbraFlexi-ui-TWB5-EmbedResponsiveHTML.html"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\EmbedResponsiveHTML\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Ebed\u0020Document\u0027s\u0020HTML\u0020to\u0020Page.",
+            "url": "classes/AbraFlexi-ui-TWB5-EmbedResponsiveHTML.html#method___construct"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\EmbedResponsivePDF",
+            "name": "EmbedResponsivePDF",
+            "summary": "Description\u0020of\u0020EmbedResponsive.",
+            "url": "classes/AbraFlexi-ui-TWB5-EmbedResponsivePDF.html"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\EmbedResponsivePDF\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Ebed\u0020Document\u0027s\u0020PDF\u0020to\u0020Page.",
+            "url": "classes/AbraFlexi-ui-TWB5-EmbedResponsivePDF.html#method___construct"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\RecordChooser",
+            "name": "RecordChooser",
+            "summary": "Description\u0020of\u0020GroupChooser.",
+            "url": "classes/AbraFlexi-ui-TWB5-RecordChooser.html"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\RecordChooser\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Selectize.js\u0020based\u0020Record\u0020Chooser.",
+            "url": "classes/AbraFlexi-ui-TWB5-RecordChooser.html#method___construct"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\RecordSelector",
+            "name": "RecordSelector",
+            "summary": "Select\u0020One\u0020Value.",
+            "url": "classes/AbraFlexi-ui-TWB5-RecordSelector.html"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\RecordSelector\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Selectize.js\u0020based\u0020input.",
+            "url": "classes/AbraFlexi-ui-TWB5-RecordSelector.html#method___construct"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\RecordTypeSelect",
+            "name": "RecordTypeSelect",
+            "summary": "Description\u0020of\u0020TypSklPohSelect.",
+            "url": "classes/AbraFlexi-ui-TWB5-RecordTypeSelect.html"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\RecordTypeSelect\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Common\u0020AbraFlexi\u0020evidence\u0020record\u0020Type\u0020Select.",
+            "url": "classes/AbraFlexi-ui-TWB5-RecordTypeSelect.html#method___construct"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\SearchBox",
+            "name": "SearchBox",
+            "summary": "Description\u0020of\u0020SearchBox.",
+            "url": "classes/AbraFlexi-ui-TWB5-SearchBox.html"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\SearchBox\u003A\u003AafterAdd\u0028\u0029",
+            "name": "afterAdd",
+            "summary": "",
+            "url": "classes/AbraFlexi-ui-TWB5-SearchBox.html#method_afterAdd"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\SearchBox\u003A\u003Afinalize\u0028\u0029",
+            "name": "finalize",
+            "summary": "",
+            "url": "classes/AbraFlexi-ui-TWB5-SearchBox.html#method_finalize"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\StatusInfoBox",
+            "name": "StatusInfoBox",
+            "summary": "AbraFlexi\u0020connection\u0020status\u0020widget.",
+            "url": "classes/AbraFlexi-ui-TWB5-StatusInfoBox.html"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\StatusInfoBox\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Try\u0020to\u0020connect\u0020to\u0020AbraFlexi.",
+            "url": "classes/AbraFlexi-ui-TWB5-StatusInfoBox.html#method___construct"
+        },                {
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\StatusInfoBox\u003A\u003Aconnected\u0028\u0029",
             "name": "connected",
             "summary": "Is\u0020Configured\u0020company\u0020connected\u0020\u003F",
-            "url": "../classes/AbraFlexi-ui-TWB4-StatusInfoBox.html#method_connected"
+            "url": "classes/AbraFlexi-ui-TWB5-StatusInfoBox.html#method_connected"
         },                {
-            "fqsen": "\\AbraFlexi\\ui\\TWB4\\StatusInfoBox\u003A\u003Adraw\u0028\u0029",
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\StatusInfoBox\u003A\u003Adraw\u0028\u0029",
             "name": "draw",
-            "summary": "Draw\u0020result",
-            "url": "../classes/AbraFlexi-ui-TWB4-StatusInfoBox.html#method_draw"
+            "summary": "Draw\u0020result.",
+            "url": "classes/AbraFlexi-ui-TWB5-StatusInfoBox.html#method_draw"
         },                {
-            "fqsen": "\\AbraFlexi\\ui\\TWB4\\StatusInfoBox\u003A\u003A\u0024info",
+            "fqsen": "\\AbraFlexi\\ui\\TWB5\\StatusInfoBox\u003A\u003A\u0024info",
             "name": "info",
-            "summary": "Abraflexi\u0020Status",
-            "url": "../classes/AbraFlexi-ui-TWB4-StatusInfoBox.html#property_info"
+            "summary": "AbraFlexi\u0020Status.",
+            "url": "classes/AbraFlexi-ui-TWB5-StatusInfoBox.html#property_info"
         },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
-            "url": "../namespaces/default.html"
+            "url": "namespaces/default.html"
         },                {
-            "fqsen": "\\AbraFlexi\\ui\\TWB4",
-            "name": "TWB4",
+            "fqsen": "\\AbraFlexi\\ui\\TWB5",
+            "name": "TWB5",
             "summary": "",
-            "url": "../namespaces/abraflexi-ui-twb4.html"
+            "url": "namespaces/abraflexi-ui-twb5.html"
         },                {
             "fqsen": "\\AbraFlexi\\ui",
             "name": "ui",
             "summary": "",
-            "url": "../namespaces/abraflexi-ui.html"
+            "url": "namespaces/abraflexi-ui.html"
         },                {
             "fqsen": "\\AbraFlexi",
             "name": "AbraFlexi",
             "summary": "",
-            "url": "../namespaces/abraflexi.html"
+            "url": "namespaces/abraflexi.html"
         }            ]
 );
