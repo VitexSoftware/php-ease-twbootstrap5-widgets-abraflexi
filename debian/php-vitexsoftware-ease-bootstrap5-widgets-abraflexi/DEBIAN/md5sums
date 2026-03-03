@@ -1,0 +1,17 @@
+856d22a0cb151bc68bbc77dd3646f3ed  usr/share/doc/php-vitexsoftware-ease-bootstrap5-widgets-abraflexi/README.Debian
+25507d1e22b43711ee6cc0c05e5de850  usr/share/doc/php-vitexsoftware-ease-bootstrap5-widgets-abraflexi/changelog.gz
+b15434ab36e1e1d5ec39f74656fe87c9  usr/share/doc/php-vitexsoftware-ease-bootstrap5-widgets-abraflexi/copyright
+5bed021c514b68e6c22cfab8e0e0f8ef  usr/share/php/EaseTWB5WidgetsAbraFlexi/AbraFlexiLogo.php
+f1931578f16b07d442c3f464328b3d56  usr/share/php/EaseTWB5WidgetsAbraFlexi/AdresarForm.php
+717832bedb80e211019a7b15af11b02e  usr/share/php/EaseTWB5WidgetsAbraFlexi/CompanyLogo.php
+badc47757e94c7df6eb4704109a53d45  usr/share/php/EaseTWB5WidgetsAbraFlexi/ConnectionForm.php
+2eccf95962aa44ee477ecc024ef86165  usr/share/php/EaseTWB5WidgetsAbraFlexi/DocumentLink.php
+3adc9a924a96dc28837768780ed6eeee  usr/share/php/EaseTWB5WidgetsAbraFlexi/EmbedResponsive.php
+051d3a0f8ff205c453c8043cf51b1eb1  usr/share/php/EaseTWB5WidgetsAbraFlexi/EmbedResponsiveHTML.php
+83e03da1dc4ad566a527007c7d7154b7  usr/share/php/EaseTWB5WidgetsAbraFlexi/EmbedResponsivePDF.php
+4c93f822b1841f9451261d23b6509be5  usr/share/php/EaseTWB5WidgetsAbraFlexi/RecordChooser.php
+400bb89d8a7195ec772224ca47f6da09  usr/share/php/EaseTWB5WidgetsAbraFlexi/RecordSelector.php
+69429cec253815beaac8e9b741fa76f6  usr/share/php/EaseTWB5WidgetsAbraFlexi/RecordTypeSelect.php
+a1229e1637cf74ae1087cb32e243bb1f  usr/share/php/EaseTWB5WidgetsAbraFlexi/SearchBox.php
+4c8235eebe8db245fc9c6c903f4f12be  usr/share/php/EaseTWB5WidgetsAbraFlexi/StatusInfoBox.php
+cadc17cae23b1d1ab85bae9fa60b4708  usr/share/php/EaseTWB5WidgetsAbraFlexi/composer.json

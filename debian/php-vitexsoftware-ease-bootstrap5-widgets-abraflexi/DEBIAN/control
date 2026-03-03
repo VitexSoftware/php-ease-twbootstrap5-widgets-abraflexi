@@ -1,0 +1,12 @@
+Package: php-vitexsoftware-ease-bootstrap5-widgets-abraflexi
+Version: 1.4.0
+Architecture: all
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Installed-Size: 42
+Depends: php-vitexsoftware-abraflexi-bricks, php-vitexsoftware-ease-bootstrap5-widgets
+Suggests: php-spojenet-abraflexi-doc, php-vitexsoftware-abraflexi-bricks-doc
+Section: web
+Priority: optional
+Homepage: https://github.com/VitexSoftware/php-ease-twbootstrap5-widgets-abraflexi
+Description: PHP Based Abraflexi RestAPI/Json library AddOns
+ Additional classess and code snipplets for AbraFlexi library
