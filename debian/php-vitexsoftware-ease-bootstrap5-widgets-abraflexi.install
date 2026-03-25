@@ -1,3 +1,3 @@
-/src/AbraFlexi/ui/TWB5/*	/usr/share/php/EaseTWB5WidgetsAbraFlexi/
-debian/composer.json		/usr/share/php/EaseTWB5WidgetsAbraFlexi/
-debian/autoload.php		    /usr/share/php/EaseTWB5WidgetsAbraFlexi/
+src/AbraFlexi/ui/TWB5/* 	usr/share/php/EaseTWB5WidgetsAbraFlexi/
+debian/composer.json		usr/share/php/EaseTWB5WidgetsAbraFlexi/
+debian/autoload.php	        usr/share/php/EaseTWB5WidgetsAbraFlexi/
