@@ -3,7 +3,7 @@
 // Includes dependency autoloaders if present and registers PSR-4 for project classes.
 
 require_once '/usr/share/php/EaseTWB5/autoload.php';
-require_once '/usr/share/php/EaseTWB5WidgetsAbraFlexi//autoload.php';
+require_once '/usr/share/php/EaseTWB5WidgetsAbraFlexi/autoload.php';
 
 // Register PSR-4 autoloader for AbraFlexi\ui\TWB5\ namespace
 spl_autoload_register(function ($class) {
