@@ -47,10 +47,6 @@ changelog:
 deb: changelog
 	dpkg-buildpackage -A -us -uc
 
-rpm:
-	rpmdev-bumpspec --comment="Build" --userstring="Vítězslav Dvořák <info@vitexsoftware.cz>" php-vitexsoftware-ease-bootstrap4-widgets-abraflexi.spec
-	rpmbuild -ba php-vitexsoftware-ease-bootstrap4-widgets-abraflexi.spec
-
 release:
 	echo Release v$(nextversion)
 	dch -v $(nextversion) `git log -1 --pretty=%B | head -n 1`
@@ -62,7 +58,4 @@ rpm:
 	rpmdev-bumpspec --comment="Build" --userstring="Vítězslav Dvořák <info@vitexsoftware.cz>" php-vitexsoftware-ease-bootstrap5-widgets-abraflexi.spec
 	rpmbuild -ba php-vitexsoftware-ease-bootstrap5-widgets-abraflexi.spec
 
-
-
 .PHONY : install
-	
