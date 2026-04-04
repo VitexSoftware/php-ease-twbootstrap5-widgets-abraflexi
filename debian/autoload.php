@@ -16,7 +16,7 @@ spl_autoload_register(function ($class) {
     }
 
     $relative = substr($class, $len);
-    $file = $base_dir . str_replace('\\\\', '/', $relative) . '.php';
+    $file = $base_dir . str_replace('\\', '/', $relative) . '.php';
 
     if (file_exists($file)) {
         require $file;
