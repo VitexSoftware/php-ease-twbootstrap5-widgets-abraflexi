@@ -1,5 +1,5 @@
 # php-vitexsoftware-ease-bootstrap5-widgets-abraflexi
-![Project Logo](project-logo.png?raw=true "Project Logo")
+![Project Logo](php-vitexsoftware-ease-bootstrap5-widgets-abraflexi.svg?raw=true "Project Logo")
 
 [![Latest Stable Version](https://poser.pugx.org/vitexsoftware/ease-twbootstrap5-widgets-abraflexi/v)](//packagist.org/packages/vitexsoftware/ease-twbootstrap5-widgets-abraflexi) 
 [![Total Downloads](https://poser.pugx.org/vitexsoftware/ease-twbootstrap5-widgets-abraflexi/downloads)](//packagist.org/packages/vitexsoftware/ease-twbootstrap5-widgets-abraflexi) 
@@ -21,26 +21,23 @@ Instalace
 
 ![Install](install.png?raw=true)
 
-### Co tady máme ?
+### Classes in `AbraFlexi\ui\TWB5`:
 
-# Třídy v AbraFlexi/Bricks/ui/TWB5:
-
-| Soubor                                                           | Popis                                 |
-| ---------------------------------------------------------------- | --------------------------------------|
-| [AddressForm](src/AbraFlexi/ui/TWB5/AddressForm.php)             | Formulář pro výběr firmy
-| [ConnectionForm](src/AbraFlexi/ui/TWB5/ConnectionForm.php)       | Formulář pro pripojeni k firme
-| [StatusInfoBox](src/AbraFlexi/ui/TWB5/StatusInfoBox.php)         | Infostaus pripojeni k firme
-
-
-| File                                                           | Description                           |
-| -------------------------------------------------------------- | ------------------------------------- |
-| [CompanyLogo.php](src/php-abraflexi/Bricks/ui/CompanyLogo.php) | Company Logo
-| [DocumentLink.php](src/php-abraflexi/Bricks/ui/DocumentLink.php)| Link to the document in the AbraFlexi web interface
-| [AbraFlexiLogo.php](src/php-abraflexi/Bricks/ui/AbraFlexiLogo.php)| AbraFlexi Logo
-| [EmbedResponsiveHTML.php](src/php-abraflexi/Bricks/ui/EmbedResponsiveHTML.php)| Class for displaying HTML document on the page
-| [EmbedResponsivePDF.php](src/php-abraflexi/Bricks/ui/EmbedResponsivePDF.php)  | Class for displaying PDF document on the page
-| [RecordTypeSelect.php](src/php-abraflexi/Bricks/ui/RecordTypeSelect.php)      | Dropdown for selecting document type
-| [RecordChooser.php](src/php-abraflexi/Bricks/ui/RecordChooser.php)            | Dropdown for selecting record based on [Selectize.js](https://selectize.github.io/selectize.js/)
+| File                                                                                      | Description                                                                 |
+| ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [AbraFlexiLogo.php](src/AbraFlexi/ui/TWB5/AbraFlexiLogo.php)                             | AbraFlexi Logo (SVG, base64-embedded)                                       |
+| [AdresarForm.php](src/AbraFlexi/ui/TWB5/AdresarForm.php)                                 | Address book item edit form                                                 |
+| [CompanyLogo.php](src/AbraFlexi/ui/TWB5/CompanyLogo.php)                                 | Company Logo fetched from AbraFlexi                                         |
+| [ConnectionForm.php](src/AbraFlexi/ui/TWB5/ConnectionForm.php)                           | Form for entering AbraFlexi connection details                              |
+| [DocumentLink.php](src/AbraFlexi/ui/TWB5/DocumentLink.php)                               | Link to a document in the AbraFlexi web interface                           |
+| [EmbedResponsive.php](src/AbraFlexi/ui/TWB5/EmbedResponsive.php)                         | Responsive embed base class                                                 |
+| [EmbedResponsiveHTML.php](src/AbraFlexi/ui/TWB5/EmbedResponsiveHTML.php)                 | Embed an HTML document on the page                                          |
+| [EmbedResponsivePDF.php](src/AbraFlexi/ui/TWB5/EmbedResponsivePDF.php)                   | Embed a PDF document on the page                                            |
+| [RecordChooser.php](src/AbraFlexi/ui/TWB5/RecordChooser.php)                             | Text input for selecting a record via [Selectize.js](https://selectize.github.io/selectize.js/) |
+| [RecordSelector.php](src/AbraFlexi/ui/TWB5/RecordSelector.php)                           | Select dropdown for picking a record via [Selectize.js](https://selectize.github.io/selectize.js/) |
+| [RecordTypeSelect.php](src/AbraFlexi/ui/TWB5/RecordTypeSelect.php)                       | Dropdown for selecting AbraFlexi evidence/document type                     |
+| [SearchBox.php](src/AbraFlexi/ui/TWB5/SearchBox.php)                                     | Search input with datalist autocomplete                                     |
+| [StatusInfoBox.php](src/AbraFlexi/ui/TWB5/StatusInfoBox.php)                             | Connection status info box                                                  |
 
 
 Examples in the [Examples](Examples) folder
@@ -86,5 +83,5 @@ sudo apt install lsb-release wget apt-transport-https bzip2
 wget -qO- https://repo.vitexsoftware.com/keyring.gpg | sudo tee /etc/apt/trusted.gpg.d/vitexsoftware.gpg
 echo "deb [signed-by=/etc/apt/trusted.gpg.d/vitexsoftware.gpg]  https://repo.vitexsoftware.com  $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/vitexsoftware.list
 sudo apt update
-sudo apt install php-vitexsoftware-abraflexi-bricks
+sudo apt install php-vitexsoftware-ease-bootstrap5-widgets-abraflexi
 ```

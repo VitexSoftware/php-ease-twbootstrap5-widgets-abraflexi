@@ -22,7 +22,7 @@ namespace AbraFlexi\ui\TWB5;
  */
 class RecordChooser extends \Ease\Html\InputTextTag
 {
-    use \Ease\ui\Selectizer;
+    use \Ease\Html\Widgets\Selectizer;
 
     /**
      * Selectize.js based Record Chooser.

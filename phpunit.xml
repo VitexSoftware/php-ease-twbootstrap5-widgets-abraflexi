@@ -2,7 +2,7 @@
 <phpunit colors="true" bootstrap="./tests/bootstrap.php">
     <testsuites>
         <testsuite name="all">
-            <directory>./tests/src/AbraFlexi</directory>
+            <directory>./tests/AbraFlexi</directory>
         </testsuite>
     </testsuites>
 

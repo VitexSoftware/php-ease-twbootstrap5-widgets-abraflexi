@@ -2,4 +2,4 @@ src/AbraFlexi/ui/TWB5/* usr/share/php/EaseTWB5WidgetsAbraFlexi/
 composer.json		usr/share/php/EaseTWB5WidgetsAbraFlexi/
 debian/autoload.php	usr/share/php/EaseTWB5WidgetsAbraFlexi/
 php-vitexsoftware-ease-bootstrap5-widgets-abraflexi.svg	usr/share/icons/hicolor/scalable/apps/
-io.github.vitexsoftware.php_vitexsoftware_ease_bootstrap5_widgets_abraflexi.metainfo.xml	usr/share/metainfo/
+debian/io.github.vitexsoftware.php_vitexsoftware_ease_bootstrap5_widgets_abraflexi.metainfo.xml	usr/share/metainfo/
