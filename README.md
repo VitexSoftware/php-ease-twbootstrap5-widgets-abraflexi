@@ -1,5 +1,7 @@
 # php-vitexsoftware-ease-bootstrap5-widgets-abraflexi
 ![Project Logo](php-vitexsoftware-ease-bootstrap5-widgets-abraflexi.svg?raw=true "Project Logo")
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Packaging: deb](https://img.shields.io/badge/packaging-.deb-red?logo=debian&logoColor=white)
 
 [![Latest Stable Version](https://poser.pugx.org/vitexsoftware/ease-twbootstrap5-widgets-abraflexi/v)](//packagist.org/packages/vitexsoftware/ease-twbootstrap5-widgets-abraflexi) 
 [![Total Downloads](https://poser.pugx.org/vitexsoftware/ease-twbootstrap5-widgets-abraflexi/downloads)](//packagist.org/packages/vitexsoftware/ease-twbootstrap5-widgets-abraflexi) 
